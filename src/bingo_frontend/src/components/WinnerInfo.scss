@@ -1,0 +1,21 @@
+/* src/bingo_frontend/src/components/WinnerInfo.scss */
+
+.winner-info {
+  background-color: #e0ffe0;
+  border: 2px solid #27ae60;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 8px; 
+
+  h2 {
+    color: #27ae60;
+    margin-bottom: 10px; 
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin: 0; 
+  }
+}

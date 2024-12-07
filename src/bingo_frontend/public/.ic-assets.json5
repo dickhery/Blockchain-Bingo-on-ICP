@@ -1,0 +1,23 @@
+// .ic-assets.json5
+
+[
+    {
+        "match": "**/*",
+        "security_policy": "standard",
+        "headers": {
+            // Original comments preserved
+            // Here, we remove 'unsafe-inline' and 'https:' from script-src, leaving only 'self'.
+            // This means no inline scripts or event handlers are allowed.
+            // Ensure that all scripts are loaded from your canister's origin and not inline.
+
+            "Content-Security-Policy": "default-src 'self'; script-src 'self'; connect-src 'self' https://ic0.app https://icp0.io https://sgfym-xqaaa-aaaap-akmzq-cai.ic0.app https://w4qr5-faaaa-aaaap-anunq-cai.ic0.app https://ryjl3-tyaaa-aaaaa-aaaba-cai.ic0.app https://identity.ic0.app https://ipinfo.io; img-src 'self' data:; style-src 'self'; style-src-elem 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests;",
+
+            "Permissions-Policy": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), window-placement=(), vertical-scroll=()",
+            "X-Frame-Options": "DENY",
+            "Referrer-Policy": "same-origin",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "X-Content-Type-Options": "nosniff",
+            "X-XSS-Protection": "1; mode=block"
+        }
+    }
+]

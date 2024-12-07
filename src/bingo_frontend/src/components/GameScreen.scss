@@ -1,0 +1,162 @@
+// src/bingo_frontend/src/components/GameScreen.scss
+
+.game-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  h1 {
+    margin-bottom: 20px;
+    color: #1976d2;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #424242;
+    margin-bottom: 20px;
+  }
+
+  .message {
+    display: flex; 
+    align-items: center;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    max-width: 600px;
+    word-wrap: break-word;
+    position: relative;
+
+    &.success {
+      background-color: #d4edda;
+      color: #155724;
+    }
+
+    &.info {
+      background-color: #d1ecf1;
+      color: #0c5460;
+    }
+
+    &.warning {
+      background-color: #fff3cd;
+      color: #856404;
+    }
+
+    &.error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+
+    .message-text {
+      flex: 1;
+      text-align: center;
+    }
+
+    .close-button {
+      position: absolute;
+      top: -15px;
+      right: -20px;
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: inherit;
+    }
+  }
+
+  .view-card-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+
+    &:hover {
+      background-color: #43a047;
+    }
+
+    &.disabled {
+      background-color: #a5d6a7;
+      cursor: not-allowed;
+    }
+  }
+
+  .admin-button,
+  .reset-button,
+  .claim-button,
+  .become-host-button { 
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #757575;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+
+    &:hover {
+      background-color: #616161;
+    }
+
+    &.reset-button {
+      background-color: #f44336;
+
+      &:hover {
+        background-color: #d32f2f;
+      }
+    }
+
+    &.claim-button {
+      background-color: #ff9800;
+
+      &:hover {
+        background-color: #fb8c00;
+      }
+    }
+
+    &.become-host-button { 
+      background-color: #ff5722;
+
+      &:hover {
+        background-color: #e64a19;
+      }
+
+      &:disabled {
+        background-color: #ffccbc;
+        cursor: not-allowed;
+      }
+    }
+
+    &:disabled {
+      background-color: #bdbdbd;
+      cursor: not-allowed;
+    }
+  }
+
+  .back-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+
+    &:hover {
+      background-color: #1976d2;
+    }
+
+    &:disabled {
+      background-color: #90caf9;
+      cursor: not-allowed;
+    }
+  }
+
+}

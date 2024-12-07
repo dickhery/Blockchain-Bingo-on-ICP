@@ -1,0 +1,149 @@
+/* src/bingo_frontend/src/components/GameInfo.scss */
+
+.game-info {
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #2196f3;
+  border-radius: 10px;
+  background-color: #e3f2fd;
+  width: 80%;
+  max-width: 500px;
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; 
+  }
+
+  .game-number,
+  .win-type,
+  .card-count,
+  .total-prize { 
+    text-align: center;
+    margin-bottom: 10px;
+
+    h3 {
+      color: #1976d2;
+    }
+  }
+
+  .total-prize { 
+    h3 {
+      font-weight: bold;
+      color: #388e3c;
+    }
+  }
+
+  .latest-number {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .called-numbers {
+    h3 {
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    .numbers-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: center;
+
+      .called-number {
+        background-color: #fff176;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 0.9rem;
+        border: 1px solid #fdd835;
+      }
+    }
+  }
+
+  
+  .game-info-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    min-width: 150px; 
+    text-align: center;
+  }
+
+  
+  .admin-button {
+    background-color: #00796b; 
+    &:hover {
+      background-color: #00695c;
+    }
+    &:disabled {
+      background-color: #80cbc4;
+      cursor: not-allowed;
+    }
+  }
+
+  .auto-draw-button {
+    background-color: #0288d1; 
+    &:hover {
+      background-color: #0277bd;
+    }
+    &:disabled {
+      background-color: #81d4fa;
+      cursor: not-allowed;
+    }
+  }
+
+  .check-win-button {
+    background-color: #c2185b; 
+    &:hover {
+      background-color: #ad1457;
+    }
+    &:disabled {
+      background-color: #f8bbd0;
+      cursor: not-allowed;
+    }
+  }
+
+  .audio-controls {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .audio-toggle {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      color: #424242;
+
+      input[type='checkbox'] {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 10px;
+
+    .game-info {
+      width: 90%;
+      max-width: none;
+    }
+
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .game-info-button {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+}

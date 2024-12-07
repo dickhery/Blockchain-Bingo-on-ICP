@@ -1,0 +1,63 @@
+{
+  "canisters": {
+    "bingo_backend": {
+      "main": "src/bingo_backend/main.mo",
+      "type": "motoko"
+    },
+    "bingo_frontend": {
+      "dependencies": [
+        "bingo_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/bingo_frontend/src/main.jsx"
+      },
+      "source": [
+        "src/bingo_frontend/dist"
+      ],
+      "type": "assets",
+      "build": "npm run build --workspace bingo_frontend",
+      "mount": {}
+    },
+    "internet_identity": {
+      "type": "custom",
+      "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz",
+      "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+      "remote": {
+        "id": {
+          "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+        }
+      },
+      "frontend": {}
+    },
+    "icp_transfer_backend": { 
+      "type": "custom",
+      "candid": "src/declarations/icp_transfer_backend.did",
+      "wasm": "src/declarations/icp_transfer_backend.wasm",  
+      "remote": {
+        "id": {
+          "ic": "w4qr5-faaaa-aaaap-anunq-cai"  
+        }
+      },
+      "frontend": {}
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

@@ -1,0 +1,23 @@
+{
+    "short_name": "Bingo",
+    "name": "Blockchain Bingo",
+    "icons": [
+      {
+        "src": "/images/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#2196f3",
+    "description": "Join our fun and interactive Bingo game on the Internet Computer Protocol blockchain."
+  }
+  
