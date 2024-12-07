@@ -1,38 +1,37 @@
-
 # 🎉 Bingo on the Internet Computer 🎉
 
 Welcome to **Blockchain Bingo** – an exciting decentralized Bingo game built on the Internet Computer Protocol (ICP)! Dive into a fair, transparent, and engaging gaming experience where you can play against users from around the world directly on the blockchain. Whether you're aiming for a **Standard** win or going for a complete **Blackout**, our platform ensures a seamless and fun experience for all players.
 
 ## 📖 Table of Contents
 
-- [✨ Description](#-description)
-  - [🎲 How It Works](#-how-it-works)
-- [🕹️ How to Play](#🕹️-how-to-play)
-- [🚀 Features](#🚀-features)
-- [📊 Game Types](#📊-game-types)
-- [💡 What is ICP?](#💡-what-is-icp)
-- [🛠️ User Guides](#🛠️-user-guides)
-  - [🔑 Creating or Changing Your Username](#🔑-creating-or-changing-your-username)
-  - [🎮 Hosting a Game](#🎮-hosting-a-game)
-    - [💸 Financial Breakdown Example](#💸-financial-breakdown-example)
-  - [🔒 Creating Private Games](#🔒-creating-private-games)
-- [💰 Financial Breakdown](#💰-financial-breakdown)
-- [💻 Installation](#💻-installation)
-- [🛠️ Deployment](#🛠️-deployment)
+- [✨ Description](#description)
+  - [🎲 How It Works](#how-it-works)
+- [🕹️ How to Play](#how-to-play)
+- [🚀 Features](#features)
+- [📊 Game Types](#game-types)
+- [💡 What is ICP?](#what-is-icp)
+- [🛠️ User Guides](#user-guides)
+  - [🔑 Creating or Changing Your Username](#creating-or-changing-your-username)
+  - [🎮 Hosting a Game](#hosting-a-game)
+    - [💸 Financial Breakdown Example](#financial-breakdown-example)
+  - [🔒 Creating Private Games](#creating-private-games)
+- [💰 Financial Breakdown](#financial-breakdown)
+- [💻 Installation](#installation)
+- [🛠️ Deployment](#deployment)
   - [Deploying to the Internet Computer](#deploying-to-the-internet-computer)
-- [🏃‍♂️ Running Locally](#🏃‍♂️-running-locally)
-- [⚙️ Frontend Environment Variables](#⚙️-frontend-environment-variables)
-- [📦 Dependencies](#📦-dependencies)
+- [🏃‍♂️ Running Locally](#running-locally)
+- [⚙️ Frontend Environment Variables](#frontend-environment-variables)
+- [📦 Dependencies](#dependencies)
   - [Backend Dependencies](#backend-dependencies)
   - [Frontend Dependencies](#frontend-dependencies)
-- [🌐 Geolocation API](#🌐-geolocation-api)
-- [🔄 Re-deployment Policy](#🔄-re-deployment-policy)
-- [🛠️ For Developers](#🛠️-for-developers)
-- [📬 Contact Page](#📬-contact-page)
-- [📝 Credits](#📝-credits)
-- [📄 License](#📄-license)
+- [🌐 Geolocation API](#geolocation-api)
+- [🔄 Re-deployment Policy](#re-deployment-policy)
+- [🛠️ For Developers](#for-developers)
+- [📬 Contact Page](#contact-page)
+- [📝 Credits](#credits)
+- [📄 License](#license)
 
-## ✨ Description
+## Description
 
 **Blockchain Bingo** is a decentralized application (dApp) that brings the classic game of Bingo to the blockchain. Leveraging the power of the Internet Computer, Bingo offers a secure and transparent platform where players can generate unique Bingo cards, participate in real-time games, and experience the thrill of winning without any centralized authority.
 
@@ -46,7 +45,7 @@ Welcome to **Blockchain Bingo** – an exciting decentralized Bingo game built o
 4. **Gameplay:** Admins draw numbers sequentially, and all players' interfaces update in real-time.
 5. **Winning:** Players can check their cards against called numbers to determine if they've won based on the selected game type.
 
-## 🕹️ How to Play
+## How to Play
 
 1. **Login:** Use your Internet Identity to authenticate and join the game.
 2. **Generate Your Card:** Click on the "View My Card" button to receive your unique Bingo card.
@@ -56,7 +55,7 @@ Welcome to **Blockchain Bingo** – an exciting decentralized Bingo game built o
 6. **Check for Win:** Once enough numbers are drawn, use the "Check Bingo" button to see if you've won.
 7. **Celebrate Victory:** If you meet the win condition, your Principal ID will be displayed as the winner, and the game will conclude.
 
-## 🚀 Features
+## Features
 
 - **Unique Bingo Cards:** Every player gets a distinct Bingo card for each game.
 - **Multiple Win Types:** Choose between **Standard** and **Blackout** game modes.
@@ -71,7 +70,7 @@ Welcome to **Blockchain Bingo** – an exciting decentralized Bingo game built o
 - **Audio Features:** Enable audio to hear numbers being called out during the game, enhancing the immersive experience.
 - **Contact Page:** Reach out to the team or leave feedback through our integrated contact page.
 
-## 📊 Game Types
+## Game Types
 
 **Blockchain Bingo** offers two exciting game types: **Standard** and **Blackout**. Each game type provides a unique Bingo experience tailored to different player preferences.
 
@@ -83,11 +82,11 @@ Welcome to **Blockchain Bingo** – an exciting decentralized Bingo game built o
   - **Winning Criteria:** Mark all squares on your Bingo card.
   - **Gameplay:** Offers a more challenging and rewarding experience for avid Bingo enthusiasts.
 
-## 💡 What is ICP?
+## What is ICP?
 
 The **Internet Computer Protocol (ICP)** is a revolutionary blockchain technology that enables the creation of decentralized applications (dApps) with enhanced scalability, speed, and security. By leveraging ICP, **Blockchain Bingo** operates seamlessly on-chain, ensuring transparent game mechanics, secure transactions, and a trustless environment where players can enjoy Bingo without intermediaries.
 
-## 🛠️ User Guides
+## User Guides
 
 ### 🔑 Creating or Changing Your Username
 
@@ -119,7 +118,7 @@ This ensures that both the host and the platform are fairly compensated while pr
 
 To create a private game, add a password during the game setup process in the Host Bingo screen. This password will be required for players to join the game, ensuring that only invited or authorized participants can register and play.
 
-## 💰 Financial Breakdown
+## Financial Breakdown
 
 Understanding how funds are managed within **Blockchain Bingo** ensures transparency and trust. Here's a detailed breakdown of the financial aspects:
 
@@ -147,7 +146,7 @@ Understanding how funds are managed within **Blockchain Bingo** ensures transpar
     2. A transaction directing the host's percentage to their ICP account.
   - This dual-transaction system ensures fair and immediate distribution of rewards.
 
-## 💻 Installation
+## Installation
 
 ### 🛠️ Prerequisites
 
@@ -181,7 +180,7 @@ npm install
 cd ../..
 ```
 
-## 🛠️ Deployment
+## Deployment
 
 ### Deploying to the Internet Computer
 
@@ -233,7 +232,7 @@ Follow these steps to deploy **Blockchain Bingo** to the Internet Computer:
 
    Replace `your-canister-id` with your actual frontend canister ID from `canister_ids.json`.
 
-## 🏃‍♂️ Running Locally
+## Running Locally
 
 If you want to test your project locally, follow these steps:
 
@@ -266,7 +265,7 @@ If you want to test your project locally, follow these steps:
 
    The frontend will be available at `http://localhost:3000` and proxy API requests to the replica at port 4943.
 
-## ⚙️ Frontend Environment Variables
+## Frontend Environment Variables
 
 When hosting the frontend outside of DFX, ensure that the application does not fetch the root key in production. You may need to adjust environment variables accordingly:
 
@@ -275,7 +274,7 @@ When hosting the frontend outside of DFX, ensure that the application does not f
 - **Configure `dfx.json`** by setting `canisters -> {asset_canister_id} -> declarations -> env_override` to replace `process.env.DFX_NETWORK` with a string.
 - **Customize `createActor` constructor** as needed.
 
-## 📦 Dependencies
+## Dependencies
 
 ### Backend Dependencies
 
@@ -316,13 +315,13 @@ The frontend relies on the following dependencies:
 - **@esbuild-plugins/node-globals-polyfill**: ^0.2.3
 - **rollup-plugin-polyfill-node**: ^0.13.0
 
-Ensure all dependencies are installed by running `npm install` in both the root and frontend directories as outlined in the [Installation](#-installation) section.
+Ensure all dependencies are installed by running `npm install` in both the root and frontend directories as outlined in the [Installation](#installation) section.
 
-## 🌐 Geolocation API
+## Geolocation API
 
-**Blockchain Bingo** relies on an IP location API for geolocation to enforce geoblocking, ensuring compliance with regional regulations. The application is configured to work with the current setup, providing a seamless experience while maintaining necessary access restrictions.
+🌐 **Blockchain Bingo** relies on an IP location API for geolocation to enforce geoblocking, ensuring compliance with regional regulations. The application is configured to work with the current setup, providing a seamless experience while maintaining necessary access restrictions.
 
-## 🔄 Re-deployment Policy
+## Re-deployment Policy
 
 You're welcome to **re-deploy Blockchain Bingo** as long as you adhere to the following conditions:
 
@@ -331,19 +330,19 @@ You're welcome to **re-deploy Blockchain Bingo** as long as you adhere to the fo
 
 Feel free to customize and enhance the project to suit your needs, making it a great starting point for your own Internet Computer Protocol (ICP) Motoko projects.
 
-## 🛠️ For Developers
+## For Developers
 
 **Blockchain Bingo** serves as an excellent example for developers looking to build their own ICP-based dApps. Explore the project's structure, smart contract logic, and frontend integration to gain insights and inspiration for your endeavors.
 
-## 📬 Contact Page
+## Contact Page
 
 **Blockchain Bingo** includes an integrated **Contact Page** where users can leave messages or feedback. These messages are accessible to admins through the authorized Principal ID in the `MenuScreen.jsx` file. If you have any questions, suggestions, or need support, feel free to reach out via the contact section within the app.
 
-## 📝 Credits
+## Credits
 
-This Bingo game was inspired and partially created by [RichardHery.com](https://3jorm-yqaaa-aaaam-aaa6a-cai.ic0.app/). Special thanks to the Internet Computer development community for their support and resources.
+This Bingo game was inspired and partially created by [RichardHery.com](https://3jorm-yqaaa-aaaam-aaa6a-cai.ic0.app/). Special thanks to the Internet Computer development community for their support and resources. IP address data powered by [IPinfo](https://ipinfo.io)
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to **re-deploy and modify** the project as long as the **2.5% service fee** for all card purchases is retained. This ensures the sustainability and continuous improvement of **Blockchain Bingo**.
 
