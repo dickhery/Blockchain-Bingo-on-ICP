@@ -343,8 +343,6 @@ Feel free to customize and enhance the project to suit your needs, making it a g
 This Bingo game was inspired and partially created by [RichardHery.com](https://3jorm-yqaaa-aaaam-aaa6a-cai.ic0.app/). Special thanks to the Internet Computer development community for their support and resources. IP address data powered by [IPinfo](https://ipinfo.io)
 
 ## License
-
-## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
