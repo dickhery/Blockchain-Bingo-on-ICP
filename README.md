@@ -344,7 +344,8 @@ This Bingo game was inspired and partially created by [RichardHery.com](https://
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to **re-deploy and modify** the project as long as the **2.5% service fee** for all card purchases is retained. This ensures the sustainability and continuous improvement of **Blockchain Bingo**.
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
 
